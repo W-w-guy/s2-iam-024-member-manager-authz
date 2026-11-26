@@ -1,0 +1,29 @@
+[
+ {
+  "id": "bk-001",
+  "kind": "space.booking",
+  "org_id": "org-fake-001",
+  "owner_id": "staff-mm-001",
+  "seq": 1,
+  "site_id": "site-a",
+  "tag": "site"
+ },
+ {
+  "id": "bk-002",
+  "kind": "space.booking",
+  "org_id": "org-fake-001",
+  "owner_id": "staff-mm-001",
+  "seq": 2,
+  "site_id": "site-a",
+  "tag": "site"
+ },
+ {
+  "id": "bk-003",
+  "kind": "space.booking",
+  "org_id": "org-fake-001",
+  "owner_id": "staff-mm-001",
+  "seq": 3,
+  "site_id": "site-a",
+  "tag": "site"
+ }
+]

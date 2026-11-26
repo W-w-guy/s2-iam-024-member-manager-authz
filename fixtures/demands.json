@@ -1,0 +1,38 @@
+[
+ {
+  "id": "dem-001",
+  "kind": "opp.demand",
+  "org_id": "org-fake-001",
+  "owner_id": "staff-mm-001",
+  "seq": 1,
+  "site_id": "site-a",
+  "tag": "own"
+ },
+ {
+  "id": "dem-002",
+  "kind": "opp.demand",
+  "org_id": "org-fake-001",
+  "owner_id": "staff-mm-001",
+  "seq": 2,
+  "site_id": "site-a",
+  "tag": "own"
+ },
+ {
+  "id": "dem-003",
+  "kind": "opp.demand",
+  "org_id": "org-fake-001",
+  "owner_id": "staff-mm-002",
+  "seq": 1,
+  "site_id": "site-a",
+  "tag": "peer"
+ },
+ {
+  "id": "dem-004",
+  "kind": "opp.demand",
+  "org_id": "org-fake-001",
+  "owner_id": "staff-mm-003",
+  "seq": 1,
+  "site_id": "site-b",
+  "tag": "b"
+ }
+]

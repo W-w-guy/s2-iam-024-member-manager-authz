@@ -1,0 +1,22 @@
+# 角色矩阵种子（虚构）
+org:
+  id: org-fake-001
+  name: 虚构商务会员空间集团
+sites:
+  - {id: site-a, name: 会所A}
+  - {id: site-b, name: 会所B}
+roles:
+  member_manager:
+    label: 会员经理
+    level: site
+    permissions:
+      crm.member.read: {scope: site}
+      crm.member.write: {scope: self}
+      crm.followup.write: {scope: self}
+      crm.contact.read_sensitive: {scope: self}
+      opp.demand.read: {scope: self}
+      opp.demand.write: {scope: self}
+      event.read: {scope: site}
+      space.booking.read: {scope: site}
+      kb.article.read: {scope: org}
+      ai.assistant.use: {scope: self}

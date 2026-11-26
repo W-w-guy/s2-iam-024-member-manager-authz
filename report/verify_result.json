@@ -1,0 +1,70 @@
+[
+ {
+  "name": "AC1 pytest 全绿（40 条参数化用例）",
+  "ok": true
+ },
+ {
+  "name": "AC1 JUnit XML: 40 条 / 0 失败",
+  "ok": true
+ },
+ {
+  "name": "AC1 10 个允许项逐项有用例",
+  "ok": true
+ },
+ {
+  "name": "AC1 12 个禁止项逐项有用例",
+  "ok": true
+ },
+ {
+  "name": "AC2 crm.member.read 探针返回 6 条（会所A）",
+  "ok": true
+ },
+ {
+  "name": "AC2 crm.member.write 探针只返回本人 3 条",
+  "ok": true
+ },
+ {
+  "name": "AC3 改同事负责的记录返回 404",
+  "ok": true
+ },
+ {
+  "name": "AC3 本人记录改 owner_id 返回 403",
+  "ok": true
+ },
+ {
+  "name": "AC4 crm.export 返回 403",
+  "ok": true
+ },
+ {
+  "name": "AC4 响应体 error == permission_denied",
+  "ok": true
+ },
+ {
+  "name": "AC4 12 个禁止项 error 全部为 permission_denied",
+  "ok": true
+ },
+ {
+  "name": "附加 跨会所（切到 B）10 个允许项全部 403",
+  "ok": true
+ },
+ {
+  "name": "附加 失败信息含角色/权限点/期望/实际",
+  "ok": true
+ },
+ {
+  "name": "附加 用例参数化生成",
+  "ok": true
+ },
+ {
+  "name": "附加 README 用例清单覆盖 22 个权限点",
+  "ok": true
+ },
+ {
+  "name": "附加 角色矩阵可解析",
+  "ok": true
+ },
+ {
+  "name": "附加 变异测试 7/7 被抓到（用例非恒真）",
+  "ok": true
+ }
+]

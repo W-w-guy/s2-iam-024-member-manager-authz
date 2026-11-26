@@ -1,0 +1,14 @@
+{
+ "counts": {
+  "articles": 2,
+  "bookings": 3,
+  "demands": 4,
+  "events": 2,
+  "followups": 3,
+  "members": 9
+ },
+ "note": "确定性构造，无随机；重跑结果逐字节一致",
+ "org": "org-fake-001",
+ "sites": 2,
+ "staff": 3
+}

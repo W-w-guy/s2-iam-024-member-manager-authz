@@ -1,0 +1,19 @@
+[ OK ] AC1 pytest 全绿（40 条参数化用例） | rc=0
+[ OK ] AC1 JUnit XML: 40 条 / 0 失败 | tests=40 failures=0
+[ OK ] AC1 10 个允许项逐项有用例 | 缺=[]
+[ OK ] AC1 12 个禁止项逐项有用例 | 缺=[]
+[ OK ] AC2 crm.member.read 探针返回 6 条（会所A） | rc=200 count=6 ids=['mem-001', 'mem-002', 'mem-003', 'mem-004', 'mem-005', 'mem-006']
+[ OK ] AC2 crm.member.write 探针只返回本人 3 条 | rc=200 count=3 ids=['mem-001', 'mem-002', 'mem-003']
+[ OK ] AC3 改同事负责的记录返回 404 | rc=404 body={"detail":{"error":"not found"}}
+[ OK ] AC3 本人记录改 owner_id 返回 403 | rc=403 body={"detail":{"error":"cannot change ownership","field":"owner_id"}}
+[ OK ] AC4 crm.export 返回 403 | rc=403
+[ OK ] AC4 响应体 error == permission_denied | error=permission_denied
+[ OK ] AC4 12 个禁止项 error 全部为 permission_denied | 异常=[]
+[ OK ] 附加 跨会所（切到 B）10 个允许项全部 403 | 漏=[]
+[ OK ] 附加 失败信息含角色/权限点/期望/实际 | 
+[ OK ] 附加 用例参数化生成 | parametrize=3
+[ OK ] 附加 README 用例清单覆盖 22 个权限点 | 缺=[]
+[ OK ] 附加 角色矩阵可解析 | 
+[ OK ] 附加 变异测试 7/7 被抓到（用例非恒真） | MUTATION PASS（7/7 被抓到）
+
+TOTAL 17, PASS 17, FAIL 0

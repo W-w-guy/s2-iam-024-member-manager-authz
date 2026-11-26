@@ -1,0 +1,30 @@
+{
+ "pid": "3007",
+ "at": "20261121_142252",
+ "dir": "E:\\Python\\Agent_1\\work\\clawhunt\\iam3007",
+ "verify": "verify_3007.py",
+ "windows": {
+  "verify": {
+   "total": 17,
+   "pass": 17,
+   "fail": 0
+  },
+  "pytest": {
+   "total": 40,
+   "pass": 40,
+   "fail": 0
+  }
+ },
+ "remote": {
+  "remote": {
+   "total": 17,
+   "pass": 17,
+   "fail": 0
+  }
+ },
+ "remote_rc": [
+  0
+ ],
+ "zip_sha256_16": "4dca0e9ed1b1f7e3",
+ "zip_bytes": 70952
+}
